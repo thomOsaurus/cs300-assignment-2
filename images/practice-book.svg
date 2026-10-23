@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320">
+  <title>Open book practice illustration</title>
+  <rect width="480" height="320" rx="24" fill="#eaf2f8" />
+  <path d="M60 75 Q150 45 240 85 Q330 45 420 75 V255 Q330 225 240 265 Q150 225 60 255 Z" fill="#ffffff" stroke="#164a72" stroke-width="8" />
+  <path d="M240 85 V265 M90 115 H195 M90 155 H195 M90 195 H195 M285 115 H390 M285 155 H390 M285 195 H390" fill="none" stroke="#164a72" stroke-width="8" />
+</svg>
