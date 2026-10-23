@@ -1,1 +1,113 @@
 /* Write your own styles here. */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #243746;
+  background-color: #f5f8fa;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+header,
+section,
+footer {
+  padding: 1.5rem;
+}
+
+header {
+  background-color: #173f5f;
+  color: #ffffff;
+}
+
+.site-name {
+ margin: 0 0 1rem;  
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 0.5rem;
+}
+
+header a{
+    color: #ffffff;
+}
+
+#overview {
+  background-color: #e5eff5;
+  padding: 1.5rem;
+}
+
+h1 {
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+.button {
+  display: inline-block;
+  background-color: #173f5f;
+  color: #ffffff;
+  padding: 0.75rem 1rem;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 0.25rem;
+}
+
+.card {
+  background-color: #ffffff;
+  border: 1px solid #cbd8e2;
+  border-radius: 0.5rem;
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.card h3 {
+    margin-top: 0;
+}
+
+.about-content img{
+  display: block;
+  width: 100%;
+  max-width: 24rem;
+  height: auto;
+  margin: 0 auto 1.5rem;
+}
+
+#about {
+  background-color: #ffffff;
+}
+
+footer {
+  background-color: #173f5f;
+  color: #ffffff;
+}
+
+footer a {
+  color: #ffffff;
+}
+ a:hover { 
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: #245b80;
+}
+
+a.focus-visible {
+  outline: 3px solid #d97706;
+  outline-offset: 4px;
+}
+
+body {
+    overflow-wrap: break-word;
+}
