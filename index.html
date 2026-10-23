@@ -3,27 +3,94 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Your landing page</title>
+  <title>River Book Swap</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <!-- 1. Header and navigation: your site name and at least four navigation links. -->
-  </header>
+
+     <header id="top">
+      <p class="site-name">River Book Swap</p>
+
+      <nav aria-label="Main navigation">
+        <ul>
+          <li><a href="#overview">Overview</a></li>
+          <li><a href="#sessions">Categories</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+     </header>
   <main>
     <section id="overview">
     <h1>Share a story, discover a new one.</h1>
-    <p>Our fictional club swaps practice books and compares short descriptions.</p>
+    <p>Our fictional club swaps practice books and compares short descriptions.
+    </p>
+    <a class="button" href="#sessions">Explore swap categories</a>
     </section>
+
     <section id="sessions">
-      <!-- 3. Features or services: at least three cards, each with a title and a description. -->
+      <h2>Swap Categories</h2>
+
+      <div class="cards">
+      <article class="card">
+        <h3>Short Stories</h3>
+        <p>Compact fictional reading for a quick break.</p>
+      </article>
+
+      <article class="card">
+        <h3>Web Practice</h3>
+        <p>Classroom books for learning to build pages.</p>
+      </article>
+
+      <article class="card">
+        <h3>Puzzle Books</h3>
+        <p>Shared problem-solving ideas to try together.</p>
+      </article>
+      </div>
     </section>
+
     <section id="about">
-      <!-- 4. Your chosen content section: About, gallery, or testimonials. -->
+      <h2>About the Swap</h2>
+      
+      <div class="about-content">
+        <img 
+         src="images/practice-book.svg"
+         alt="Illustration of a book"
+    >
+    <div>
+      <p>
+        Bring one fictional book description and a note about why you chose it. 
+        </p>
+       <p>This is a fictional activity. No real exchange or registration takes place.
+      </p>
+      <h3>Practice details</h3>
+      <p>
+        Saturday, October 24, 2026<br>
+        2:00 to 4:00 PM<br>
+        Fictional River Reading Room.
+      </p>
+    </div>
+    </div>
     </section>
   </main>
+
   <footer id="contact">
-    <!-- 5. Footer: site or contact links and your copyright line. -->
+    <h2>Contact</h2>
+    
+    <nav aria-label="Footer navigation">
+      <ul>
+        <li><a href="#top">Back to Top</a></li>
+        <li><a href="#sessions">Categories</a></li>
+        <li>
+          <a href="http://developer.mozilla.org/en-US/docs/Web/Accessibility">
+            MDN Accessibility Guide
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <p>Contact: <a href="mailto:hello@example.com">hello@example.com</a></p>
+    <p>Copyright © 2026 River Book Swap. Fictional practice site.</p>
   </footer>
 </body>
 </html>
