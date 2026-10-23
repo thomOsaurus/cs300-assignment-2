@@ -103,11 +103,51 @@ footer a {
   background-color: #245b80;
 }
 
-a.focus-visible {
+a:focus-visible {
   outline: 3px solid #d97706;
   outline-offset: 4px;
 }
 
 body {
     overflow-wrap: break-word;
+}
+
+@media (min-width: 768px) {
+  nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  } 
+  nav li {
+    margin-bottom: 0;
+  }
+
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+  }
+  .card {
+    margin-bottom: 0;
+  }
+}
+
+@Media (min-width: 1024px) {
+  .cards {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .about-content {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .about-content img {
+    margin: 0 auto;
+  }
+  h1 {
+    font-size: 3rem;
+  }
 }
