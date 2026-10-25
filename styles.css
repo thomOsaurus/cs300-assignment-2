@@ -29,7 +29,10 @@ header {
   font-weight: 800;
   line-height: 1.2;
   letter-spacing: 0.03rem;
-  margin: 0 0 1rem;  
+  margin: 0 0 1rem;
+  text-align: center;  
+  -webkit-text-stroke: 0.75px #121010;
+  paint-order: stroke fill;
 }
 
 nav ul {
